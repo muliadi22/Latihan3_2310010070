@@ -7,6 +7,17 @@ public class Rumus {
     
     int sisi, panjang, lebar, hasil;
     
+    public Rumus(){
+        sisi = 0;
+        panjang = 0;
+        lebar = 0;
+        hasil = 0;
+    }
+    
+    public int getHasil(){
+        return hasil;
+    }
+    
     public void hitungLuasPersegi(){
         hasil = sisi * sisi;
     }
